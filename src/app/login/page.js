@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Menu from '@/components/menu/Menu'
 import { signIn } from 'next-auth/react'
 import React from 'react'

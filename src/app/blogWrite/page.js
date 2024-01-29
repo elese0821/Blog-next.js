@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 // import ReactQuill from 'react-quill';
 // import 'react-quill/dist/quill.snow.css';
 
-export default function page() {
+export default function Page() {
     const [title, setTitle] = useState("");
     const [cateSlug, setCateSlug] = useState("");
     const [file, setFile] = useState("");
