@@ -3,7 +3,7 @@ import React from 'react'
 
 // 카테고리 데이터 불러오기
 const getData = async () => {
-    const res = await fetch("http://localhost:3000/api/category", {
+    const res = await fetch("https://blog-next-sooty-two.vercel.app/api/category", {
         cache: "no-store"
     })
 

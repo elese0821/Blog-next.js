@@ -3,7 +3,7 @@ import Card from '../card/Card'
 
 // 블로그 글 데이터 불러오기
 const getData = async () => {
-    const res = await fetch("http://localhost:3000/api/blogPost", {
+    const res = await fetch("https://blog-next-sooty-two.vercel.app/api/blogPost", {
         cache: "no-store"
     })
 

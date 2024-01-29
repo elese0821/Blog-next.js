@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react'
 
 const getData = async (slug) => {
-    const res = await fetch(`http://localhost:3000/api/blogDetail/${slug}`, {
+    const res = await fetch(`https://blog-next-sooty-two.vercel.app/api/blogDetail/${slug}`, {
         cache: "no-store",
     });
 
