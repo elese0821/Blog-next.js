@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Menu from '@/components/menu/Menu'
 import React, { useState } from 'react'
 // import ReactQuill from 'react-quill';
