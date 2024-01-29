@@ -20,9 +20,9 @@ export default async function CardList() {
 
     return (
         <section className='blog__list container'>
-            {/* {data.map((item) => (
+            {data.map((item) => (
                 <Card item={item} key={item.id} />
-            ))} */}
+            ))}
         </section>
     )
 }
